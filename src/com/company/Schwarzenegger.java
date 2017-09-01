@@ -1,4 +1,4 @@
 package com.company;
 
-public class Schwarzenegger {
+public class Schwarzenegger extends Robo {
 }
