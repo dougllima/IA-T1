@@ -12,4 +12,11 @@ public enum Posicao {
     Posicao(int i) {
         status = i;
     }
+    Posicao(){
+        status = 0;
+    }
+
+    public int valor(){
+        return status;
+    }
 }
