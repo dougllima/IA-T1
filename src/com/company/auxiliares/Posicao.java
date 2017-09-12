@@ -19,4 +19,8 @@ public enum Posicao {
     public int valor(){
         return status;
     }
+
+    public static boolean CheckInserirLC(int status) {
+        return status != Carregador.valor() && status != Lixeira.valor();
+    }
 }
